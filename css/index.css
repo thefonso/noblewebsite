@@ -1,0 +1,9 @@
+body { 
+	padding-top: 70px; 
+	padding-bottom: 70px; 
+	min-height: 2000px;
+}
+
+.long{
+	min-height: 4000px;
+}
