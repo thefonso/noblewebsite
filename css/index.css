@@ -31,8 +31,11 @@ body {
 #navbar{
 	/*padding-top: 50px;*/
 }
+.footer-link{
+	color: #c2c1c2 !important;
+}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #555;
+  color: #555555;
   background-color: #e7e7e7;
 }
 .nav>li>a {
@@ -46,6 +49,64 @@ text-transform: uppercase;
 .joinnow{
 	margin-top: 10px;
 }
+.navbar-default .navbar-nav>li>a {
+  color: #ffffff;
+}
 
+/*footer begins*/
+/* Social Icon Sprite Begins */
+#social_box li{
+  padding-top:10px;
+  /*padding-right:8px;*/
+  /*padding-bottom:15px;*/
+}
+#contact_box{
+	/*padding-top:30px;*/
+  /*padding-right:5px;*/
+  /*padding-bottom:10px;*/
+}
+.social-icons a {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	background: url(../images/social_sprite.png) no-repeat;
+	margin-right: 16px;
+}
 
+.social-icons a:last-child {
+	margin-right: -10;
+}
 
+.social-icons .icon-fb {
+	background-position: 0 0;
+}
+
+.social-icons .icon-fb:hover {
+	background-position: 0 -34px;
+}
+
+.social-icons .icon-twit {
+	background-position: -46px 0;
+}
+
+.social-icons .icon-twit:hover {
+	background-position: -46px -34px;
+}
+
+.social-icons .icon-pin {
+	background-position: -93px 0;
+}
+
+.social-icons .icon-pin:hover {
+	background-position: -93px -34px;
+}
+
+.social-icons .icon-insta {
+	background-position: -140px 0;
+}
+
+.social-icons .icon-insta:hover {
+	background-position: -140px -34px;
+}
+/* Social Icon Sprite Ends */
+/*footer ends*/
