@@ -1,9 +1,51 @@
 body { 
-	padding-top: 70px; 
-	padding-bottom: 70px; 
+	padding-top: 100px; /*needed for space between navbar and body*/
+	padding-bottom: 70px;
 	min-height: 2000px;
 }
-
-.long{
-	min-height: 4000px;
+.container{
+	min-width: 1000px;
 }
+.long{
+	min-height: 2000px;
+}
+.main-content{
+	background-color: red;
+	min-width: 1000px;
+}
+.float-right {
+  float: right!important;
+}
+.navbar-default {
+  background-color: #2c282c;
+  border-color: #e7e7e7;
+}
+.topheader{
+	min-height: 107px;
+	background-image: url(../images/headerbar.png);
+	padding-top: 22px;
+}
+.navbar-brand {
+  padding-top: 5px;
+}
+#navbar{
+	/*padding-top: 50px;*/
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: #555;
+  background-color: #e7e7e7;
+}
+.nav>li>a {
+text-transform: uppercase;
+}
+.button-blue{
+	min-height: 33px;
+	min-width: 105px;
+	background-image: url(../images/joinnow.png);
+}
+.joinnow{
+	margin-top: 10px;
+}
+
+
+
